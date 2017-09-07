@@ -1,4 +1,4 @@
-function fortune
+function fortune()
 {
 alert("Let's see your fortune.");
 var fortunes = 
@@ -17,3 +17,4 @@ choice -= 1;
 
 alert("Your fortune is this: \n" + fortunes[choice]);
 }
+fortune();
